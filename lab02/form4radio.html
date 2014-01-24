@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>A Simple Form</title>
+</head>
+<body>
+    <form action="form4radio.php" METHOD="POST">
+    <br />
+    <label for="email">Enter email address:</label>
+    <input type="text" size="16" maxlength="20" name="email" />
+    <br />
+    <label for="contact">May we contact you?</label>
+    <label>
+        <input type="radio" name="contact" value="Yes" />
+        Yes
+    </label>
+    <label>
+        <input type="radio" name="contact" value="No" />
+        No
+    </label>
+    <br />
+    <input type="submit" value="Click to submit" />
+    <input type="reset" value="Erase and restart" />
+    </form>
+</body>
+</html>
